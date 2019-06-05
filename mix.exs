@@ -25,7 +25,6 @@ defmodule Dlex.MixProject do
     [
       {:db_connection, "~> 2.0"},
       {:grpc, "~> 0.3.1"},
-      {:gun, "1.3.0"},
       {:jason, "~> 1.0", optional: true},
       {:protobuf, "~> 0.5"},
       {:earmark, "~> 1.0", only: :dev},
